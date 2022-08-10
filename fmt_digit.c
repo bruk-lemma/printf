@@ -13,7 +13,6 @@ int print_digit(va_list valist)
 	int k = 0; 
 	int n = 0; 
 	int count = 0;
-
 	n = va_arg(valist, int);
 	if (n <= INT_MAX && n >= INT_MIN)
 	{
