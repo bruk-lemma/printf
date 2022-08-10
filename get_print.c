@@ -30,7 +30,7 @@ int get_print(const char *format, va_list valist, pt_fmt pt_format[])
 					break;
 				}
 			}
-			if (pt_format[j].fmt == NULL && format [i + 1] != ' ')
+			if (pt_format[j].fmt == NULL && format[i + 1] != ' ')
 			{
 				if (format[i + 1] != 0)
 				{
